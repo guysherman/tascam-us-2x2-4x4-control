@@ -136,6 +136,7 @@ not been tested against physical US-2x2 hardware here.
 ```
 tascam-ui/
 ├── README.md
+├── LICENSE
 ├── .gitignore
 ├── x86-app/                      # original vendor installer (not committed)
 └── native/
@@ -164,3 +165,9 @@ tascam-ui/
   `com.apple.security.device.usb`.
 - TASCAM and US-2x2/US-4x4 are trademarks of TEAC Corporation. This is an
   independent interoperability project, not affiliated with TEAC/TASCAM.
+
+## License
+
+The source code is released under the [MIT License](LICENSE). The TASCAM
+name, the US-2x2/US-4x4 marks, and the original application icon remain the
+property of TEAC Corporation.
