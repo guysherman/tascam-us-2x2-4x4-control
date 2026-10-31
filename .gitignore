@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+
+# Build and distribution artifacts
+native/build/
+native/dist/
+.build/
+DerivedData/
+*.dSYM
+*.xcarchive
+*.xcuserstate
+xcuserdata/
+.swiftpm/
+*.o
+*.a
+
+# Reverse-engineering scratch space
+# (expanded package, disassembly, probe programs, debug builds, screenshots)
+work/
+
+# Original proprietary vendor installer. Kept locally as the reference
+# artifact; force-add it with `git add -f x86-app/*.pkg` if you want it
+# versioned.
+x86-app/*.pkg
+
+# Local environment and editor files
+.env
+.env.*
+.vscode/
+.idea/
+*.swp
